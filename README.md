@@ -1,46 +1,18 @@
 # eslint-plugin-pep-imports
 
-Sort import declerations consistently
+Custom Pepso ESLint rules and definitions
 
 ## Installation
 
-You'll first need to install [ESLint](https://eslint.org/):
+You'll first need to install this plugin:
 
 ```sh
-npm i eslint --save-dev
+npm i github:pepsico-ecommerce/pep-eslint#x.x.x
 ```
 
-Next, install `eslint-plugin-pep-imports`:
+Next, install all of the peerDependencies (this is because `pep-eslint` contains ESLint rules
+from other modules, and the only way to install them are via peerDependencies)
 
 ```sh
-npm install eslint-plugin-pep-imports --save-dev
+npx install-peerdeps --dev github:pepsico-ecommerce/pep-eslint
 ```
-
-## Usage
-
-Add `pep-imports` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
-
-```json
-{
-    "plugins": [
-        "pep-imports"
-    ]
-}
-```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "pep-imports/rule-name": 2
-    }
-}
-```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
