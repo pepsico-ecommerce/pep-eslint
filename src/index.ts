@@ -35,6 +35,8 @@ export = {
                 "import/newline-after-import": 1,
                 "import/no-duplicates": 1,
                 'etc/prefer-interface': [1],
+                'comma-spacing': [1, {"before": false, "after": true}],
+                'no-multi-spaces': 1,
             }
         },
     },

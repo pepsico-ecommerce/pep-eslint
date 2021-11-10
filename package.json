@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-pep-eslint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sort import declerations consistently",
   "keywords": [
     "eslint",
