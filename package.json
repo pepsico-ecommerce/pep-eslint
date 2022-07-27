@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-pep-eslint",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sort import declerations consistently",
   "keywords": [
     "eslint",
@@ -11,8 +11,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "build": "tsc",
-    "postinstall": "npm run build"
+    "build": "tsc"
   },
   "peerDependencies": {
     "eslint-plugin-etc": "^2.0.1",
